@@ -71,7 +71,7 @@ def print_game_screen():
     print("Welcome to HANGMAN!")
     print(letter_board)
     if len(bad_guesses) == 0:
-        print("\n\n\n\n\n")  # Blank spacing matching gallows height
+        print("\n\n\n\n\n\n")  # Blank spacing matching gallows height
     else:
         print(gallows[len(bad_guesses)])
     print(f"Bad Guesses: {bad_guesses}\n")
